@@ -1,0 +1,38 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+<<<<<<< HEAD
+    "importHelpers": true,
+    "target": "es2015",
+=======
+    "emitDecoratorMetadata": true,
+    "importHelpers": true,
+    "target": "es5",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+>>>>>>> initial commit
+    "lib": [
+      "es2018",
+      "dom"
+    ]
+  },
+<<<<<<< HEAD
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true
+  }
+=======
+  "exclude": [
+    "src/root/redirect.js"
+  ]
+>>>>>>> initial commit
+}

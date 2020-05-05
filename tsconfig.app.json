@@ -1,0 +1,32 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+<<<<<<< HEAD
+    "outDir": "./out-tsc/app",
+    "types": []
+=======
+    "outDir": "../out-tsc/app",
+    "types": [],
+    "paths": {
+      "@app/*": ["src/app/*"],
+      "@modules/*": ["src/app/modules/*"],
+      "@models/*": ["src/app/models/*"],
+      "@services/*": ["src/app/services/*"]
+    }
+>>>>>>> initial commit
+  },
+  "files": [
+    "src/main.ts",
+    "src/polyfills.ts"
+  ],
+  "include": [
+    "src/**/*.d.ts"
+<<<<<<< HEAD
+=======
+  ],
+  "exclude": [
+    "src/test.ts",
+    "**/*.spec.ts"
+>>>>>>> initial commit
+  ]
+}

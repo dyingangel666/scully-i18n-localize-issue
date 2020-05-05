@@ -1,0 +1,235 @@
+{
+  "extends": "tslint:recommended",
+  "rules": {
+<<<<<<< HEAD
+    "align": {
+      "options": [
+        "parameters",
+        "statements"
+      ]
+    },
+    "array-type": false,
+    "arrow-return-shorthand": true,
+    "curly": true,
+=======
+    "array-type": false,
+    "arrow-parens": false,
+>>>>>>> initial commit
+    "deprecation": {
+      "severity": "warning"
+    },
+    "component-class-suffix": true,
+    "contextual-lifecycle": true,
+    "directive-class-suffix": true,
+    "directive-selector": [
+      true,
+      "attribute",
+<<<<<<< HEAD
+      "app",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "app",
+      "kebab-case"
+    ],
+    "eofline": true,
+=======
+      "sg",
+      "camelCase"
+    ],
+    "comment-format": [
+      true,
+      "check-space",
+      "allow-trailing-lowercase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "sg",
+      "kebab-case"
+    ],
+    "curly": [
+      true,
+      "ignore-same-line"
+    ],
+    "forin": false,
+>>>>>>> initial commit
+    "import-blacklist": [
+      true,
+      "rxjs/Rx"
+    ],
+<<<<<<< HEAD
+    "import-spacing": true,
+    "indent": {
+      "options": [
+        "spaces"
+      ]
+    },
+    "max-classes-per-file": false,
+    "max-line-length": [
+      true,
+      140
+    ],
+=======
+    "interface-name": false,
+    "max-classes-per-file": false,
+    "max-line-length": false,
+    "member-access": false,
+>>>>>>> initial commit
+    "member-ordering": [
+      true,
+      {
+        "order": [
+          "static-field",
+          "instance-field",
+          "static-method",
+          "instance-method"
+        ]
+      }
+    ],
+<<<<<<< HEAD
+=======
+    "no-consecutive-blank-lines": false,
+>>>>>>> initial commit
+    "no-console": [
+      true,
+      "debug",
+      "info",
+      "time",
+      "timeEnd",
+      "trace"
+    ],
+    "no-empty": false,
+<<<<<<< HEAD
+    "no-inferrable-types": [
+      true,
+      "ignore-params"
+    ],
+    "no-non-null-assertion": true,
+    "no-redundant-jsdoc": true,
+    "no-switch-case-fall-through": true,
+    "no-var-requires": false,
+    "object-literal-key-quotes": [
+      true,
+      "as-needed"
+    ],
+=======
+    "no-inferrable-types": false,
+    "no-non-null-assertion": true,
+    "no-redundant-jsdoc": true,
+    "no-string-literal": false,
+    "no-switch-case-fall-through": true,
+    "no-unused-expression": [
+      true,
+      "allow-fast-null-checks"
+    ],
+    "no-var-requires": false,
+    "object-literal-key-quotes": [
+      true,
+      "consistent"
+    ],
+    "object-literal-sort-keys": false,
+    "one-line": false,
+    "ordered-imports": false,
+>>>>>>> initial commit
+    "quotemark": [
+      true,
+      "single"
+    ],
+<<<<<<< HEAD
+    "semicolon": {
+      "options": [
+        "always"
+      ]
+    },
+    "space-before-function-paren": {
+      "options": {
+        "anonymous": "never",
+        "asyncArrow": "always",
+        "constructor": "never",
+        "method": "never",
+        "named": "never"
+      }
+    },
+    "typedef-whitespace": {
+      "options": [
+        {
+          "call-signature": "nospace",
+          "index-signature": "nospace",
+          "parameter": "nospace",
+          "property-declaration": "nospace",
+          "variable-declaration": "nospace"
+        },
+        {
+          "call-signature": "onespace",
+          "index-signature": "onespace",
+          "parameter": "onespace",
+          "property-declaration": "onespace",
+          "variable-declaration": "onespace"
+        }
+      ]
+    },
+    "variable-name": {
+      "options": [
+        "ban-keywords",
+        "check-format",
+        "allow-pascal-case"
+      ]
+    },
+    "whitespace": {
+      "options": [
+        "check-branch",
+        "check-decl",
+        "check-operator",
+        "check-separator",
+        "check-type",
+        "check-typecast"
+      ]
+    },
+    "no-conflicting-lifecycle": true,
+    "no-host-metadata-property": true,
+=======
+    "trailing-comma": false,
+    "no-conflicting-lifecycle": true,
+    "no-host-metadata-property": false,
+>>>>>>> initial commit
+    "no-input-rename": true,
+    "no-inputs-metadata-property": true,
+    "no-output-native": true,
+    "no-output-on-prefix": true,
+    "no-output-rename": true,
+    "no-outputs-metadata-property": true,
+<<<<<<< HEAD
+    "template-banana-in-box": true,
+    "template-no-negated-async": true,
+    "use-lifecycle-interface": true,
+    "use-pipe-transform-interface": true
+=======
+    "no-trailing-whitespace": true,
+    "template-banana-in-box": true,
+    "template-no-negated-async": true,
+    "use-lifecycle-interface": true,
+    "use-pipe-transform-interface": true,
+    "variable-name": [
+      true,
+      "allow-leading-underscore",
+      "require-const-for-all-caps"
+    ],
+    "no-import-side-effect": [
+      true,
+      {
+        "ignore-module": "(@angular/localize/init|classlist\\.js|core-js/.*|zone\\.js/.*|canvas-toBlob)$"
+      }
+    ]
+>>>>>>> initial commit
+  },
+  "rulesDirectory": [
+    "codelyzer"
+  ]
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> initial commit
